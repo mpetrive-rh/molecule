@@ -30,6 +30,7 @@ ENV PACKAGES="\
 ENV PIP_PACKAGES="\
     molecule[azure,docker,docs,ec2,gce,lxc,openstack,vagrant,windows] \
     virtualenv \
+    docker \
 "
 
 ENV GEM_PACKAGES="\
